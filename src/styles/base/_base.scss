@@ -1,12 +1,17 @@
 /*making the total HTML font size 62.5% makes 1 rem equal to 10 pixels...now in units of 10. Normally 1 REM = 16 pixels*/
+* {
+    box-sizing: border-box;
+}
 
 html {
     font-size: 62.5%;
 }
 
 body {
+    color: $dark-grey;
     font-family: Helvetica, Arial, sans-serif;
-    font-size: $m-size;;
+    font-size: $m-size;
+    line-height: 1.6;
 }
 
 button {
